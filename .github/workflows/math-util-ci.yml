@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK 1.8 - Mượn JDK cài vào Server bên Mỹ - Server Ubuntu GH cho mượn
       uses: actions/setup-java@v3
       with:
-        java-version: '1.8'
+        java-version: '8'
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven - Đóng gói App thành .jar bên server Mỹ
